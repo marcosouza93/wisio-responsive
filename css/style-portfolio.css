@@ -1,0 +1,58 @@
+label{
+	color: #ffffff;
+}
+
+.box5{
+	height: auto;
+	display:table;
+	width: 100%;
+	margin-top: 20px;
+
+}
+
+.box5 img{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.box6{
+	height: auto;
+	display:table;
+	margin-top: 20px;
+	margin-bottom: 40px;
+
+}
+
+.box6 img:hover{
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+
+
+	.ic{
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	.icons-p{
+		width: 100% !important;
+		height: 30px;
+		margin-bottom: 30px;
+		float: none !important;
+		display: block;
+		margin-right: 0 !important;
+		border-bottom: 1px #1ba8bd dotted;
+	}
+	.arrow-p{	
+		width: 64px !important;
+		height: 64px !important;
+		background-size: 100%;	
+		float: left;
+		background-image: url(../img/icon/normal/hammer-white.png) !important;
+	}
+.no-margin{
+	margin: 0 !important;
+}

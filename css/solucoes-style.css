@@ -1,0 +1,188 @@
+body{
+	background:url(../img/background-pgs.png) repeat-x;
+	}
+
+
+.fechar{
+	width:20px;
+	height:20px;
+	float:right;
+	background-image:url(../img/fechar-hover.png);
+	}
+.fechar:hover{
+	background-image:url(../img/fechar.png);
+-webkit-transition:all 0.3s ease-in;  
+-moz-transition:all 0.3s ease-in;  
+-o-transition:all 0.3s ease-in;  
+transition:all 0.3s ease-in; 	
+	}
+
+
+#porque-ter-site p{
+	margin-left:30px;margin-top:50px;font-size:13pt;
+	}
+#vantagens p{
+	margin-left:30px;margin-top:50px;font-size:13pt;
+	}
+.texto{
+
+}
+
+
+.sobtn{
+padding:5px 10px 5px 10px;color:white;border-radius:3px;font-size: 12pt; cursor: pointer;
+text-decoration: none;
+}.sobtn:hover{
+-webkit-transition:all 0.3s ease-in;  
+-moz-transition:all 0.3s ease-in;  
+-o-transition:all 0.3s ease-in;  
+transition:all 0.3s ease-in; 	
+}
+
+.sobtn.soft-blue{
+	background-color: #072c31;
+	color:white;
+}
+.sobtn.soft-blue:hover{
+	background-color: #FFF;
+	color:#072c31;
+	text-decoration: none;
+}
+
+.sobtn.white{
+	background-color: #072c31;
+	color:white;
+}
+.sobtn.white:hover{
+	background-color: #1ba8bd;
+	color:white;
+	text-decoration: none;
+}
+.sobtn.hard-blue{
+	background-color: #fff;
+	color: #072c31;
+}
+.sobtn.hard-blue:hover{
+	background-color: #1ba8bd;
+	color: 	white;
+	text-decoration: none;
+}
+
+.content{
+	font-size: 15px;
+	padding: 30px 0 40px 0;		
+}
+
+.content article{
+	width: 100%;
+	height: 100%;	
+}
+.content h3{
+	font-size: 26.5px;
+	font-weight: normal;	
+	padding-bottom:10px;
+
+}
+.content .texto {
+	font-size: 16px;
+	padding-bottom: 20px;	
+}
+.content .list-blue{
+	list-style: none;
+	margin: 0 0 10px 5px !important;
+}
+.content .list-blue li{
+	margin-bottom: 10px;
+}
+.content .list-blue li a{
+	font-size: 16px;
+	color: #FFF;
+	border-bottom: 1px #fff dotted;
+}
+.content .list-blue li a:hover{
+
+	border-bottom: 1px #072c31 dotted;
+	color: #072c31;
+	text-decoration: none;
+-webkit-transition:all 0.2s ease-in;  
+-moz-transition:all 0.2s ease-in;  
+-o-transition:all 0.2s ease-in;  
+transition:all 0.2s ease-in; 	
+}
+
+.content .list-white{
+	list-style: none;
+	margin: 0 0 10px 5px !important;
+}
+.content .list-white li{
+	margin-bottom: 10px;
+}
+.content .list-white li a{
+	font-size: 16px;
+	color: #072c31;
+	border-bottom: 1px #072c31 dotted;
+}
+.content .list-white li a:hover{
+	color: #1ba8bd;
+	text-decoration: none;
+	border-bottom: 1px #1ba8bd dotted;
+-webkit-transition:all 0.2s ease-in;  
+-moz-transition:all 0.2s ease-in;  
+-o-transition:all 0.2s ease-in;  
+transition:all 0.2s ease-in; 	
+}
+
+
+
+@media (max-width: 767px) {
+.sobtn{
+	display: block;
+	margin-bottom: 5px;
+}
+
+
+}
+
+
+.box7 h3{
+	color: #072c31;
+	font-weight: normal;
+}
+
+.box7 a{
+	color: white;
+	text-decoration: none;
+	font-size: 12pt;
+}
+
+.box7 a:hover{
+	color: #072c31;
+	-webkit-transition:all 0.3s ease-in;  
+	-moz-transition:all 0.3s ease-in;  
+	-o-transition:all 0.3s ease-in;  
+	transition:all 0.3s ease-in;
+}
+
+.box7 li{
+	padding: 5px 5px 5px 5px;
+	color: #072c31;
+}
+
+.box7 li:hover{
+	color: white;
+	-webkit-transition:all 0.3s ease-in;  
+	-moz-transition:all 0.3s ease-in;  
+	-o-transition:all 0.3s ease-in;  
+	transition:all 0.3s ease-in;
+}
+
+
+.box4 h3{
+	color: #072c31;
+	font-weight: normal;
+}
+
+.box3 h3{
+	color: #072c31;
+	font-weight: normal;
+}

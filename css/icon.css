@@ -1,0 +1,100 @@
+/* ARROW DOWN */
+.arrow.pen{background-image: url(../img/icon/down/pen-soft-blue.png);}
+.arrow.duvida-sb{background-image: url(../img/icon/down/duvida-soft-blue.png);}
+.arrow.duvida-w{background-image: url(../img/icon/down/duvida-white.png);}
+.arrow.target-w{background-image: url(../img/icon/down/target-white.png);}
+.arrow.values-w{background-image: url(../img/icon/down/values-white.png);}
+.arrow.eye-sb{background-image: url(../img/icon/down/eye-soft-blue.png);}
+.arrow.money-sb{background-image: url(../img/icon/down/money-soft-blue.png);}
+.arrow.check-sb{background-image: url(../img/icon/down/check-soft-blue.png);}
+.arrow.map-sb{background-image: url(../img/icon/down/map-soft-blue.png);}
+.arrow.phone-sb{background-image: url(../img/icon/down/phone-soft-blue.png);}
+.arrow.home-sb{background-image: url(../img/icon/down/home-soft-blue.png);}
+.arrow.eye-w{background-image: url(../img/icon/down/eye-white.png);}
+.arrow.adc-hb{background-image: url(../img/icon/down/adc-hard-blue.png);}
+/* END:ARROW DOWN */
+
+
+.icon{
+	width: 68px;
+	height: auto;
+	float: left;
+	margin-right: 10px;
+
+}
+.arrow{
+	width: 68px;
+	height: 68px;
+	background-size: 100%;	
+	float: left;
+}
+.content.blue .line{border-color: #FFF;}
+.content.hardblue .line{border-color: #1ba8bd;}
+.content.white .line{border-color: #1ba8bd;}
+
+.line{
+	width: auto;
+	height: 109px;
+	border-right: 1px #FFF dotted;
+	float: left;
+	padding-right: 32px;
+}
+.line.med{height: 240px !important;}
+.line.big{height: 280px !important;}
+@media (max-width: 979px) {
+/* ARROW NORMAL */
+.arrow.pen{background-image: url(../img/icon/normal/pen-soft-blue.png) !important;}
+.arrow.duvida-sb{background-image: url(../img/icon/normal/duvida-soft-blue.png) !important;}
+.arrow.duvida-w{background-image: url(../img/icon/normal/duvida-white.png) !important;}
+.arrow.target-w{background-image: url(../img/icon/normal/target-white.png) !important;}
+.arrow.values-w{background-image: url(../img/icon/normal/values-white.png) !important;}
+.arrow.eye-sb{background-image: url(../img/icon/normal/eye-soft-blue.png) !important;}
+.arrow.map-sb{background-image: url(../img/icon/normal/map-soft-blue.png) !important;}
+.arrow.phone-sb{background-image: url(../img/icon/normal/phone-soft-blue.png) !important;}
+.arrow.money-sb{background-image: url(../img/icon/normal/money-soft-blue.png) !important;}
+.arrow.home-sb{background-image: url(../img/icon/normal/home-soft-blue.png) !important;}
+.arrow.check-sb{background-image: url(../img/icon/normal/check-soft-blue.png) !important;}
+.arrow.eye-w{background-image: url(../img/icon/normal/eye-white.png) !important;}
+.arrow.adc-hb{background-image: url(../img/icon/normal/adc-hard-blue.png) !important;}
+/* END:EARROW NORMAL */
+
+.content.blue .icon{border-color: #FFF;}
+.content.hardblue .icon{border-color:	 #1ba8bd;}
+.content.white .icon{border-color: #1ba8bd;}
+
+
+	.icon{
+		width: 100% !important;
+		height: 21px;
+		margin-bottom: 30px;
+		float: none !important;
+		display: block;
+		margin-right: 0 !important;
+		border-bottom: 1px dotted;
+	}
+	.arrow{
+		width: 44px !important;
+		height: 44px !important;
+		float: none !important;
+		position: relative;
+		z-index: 999;
+	}
+
+	.line{
+		display: none;
+	}
+}
+@media (max-width: 767px) {
+.icon{
+		height: 29px !important;
+}
+.arrow{
+	width: 60px !important;
+	height: 60px !important;
+	background-size: 100%;	
+	float: left;
+}
+}
+
+
+
